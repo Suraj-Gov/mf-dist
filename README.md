@@ -6,7 +6,7 @@ API reverse engineered from amfi's website.
 To use in Google Sheets, enter this formula and replace :pincode with the pincode you desire
 
 ```
-=IMPORTHTML("https://<base_url>/:pincode", "table")
+=IMPORTHTML("https://<base_url>/mf-dist/:pincode", "table")
 ```
 
 # SEBI Investment Advisors
